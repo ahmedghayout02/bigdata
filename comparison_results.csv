@@ -1,0 +1,4 @@
+Method,Time (Seconds),Memory (MB)
+Pandas Chunking,235.28,6.78
+Dask Processing,32.17,50.51
+Parquet Compression,36.77,126.2
