@@ -1,0 +1,11 @@
+docker login 
+docker build -t bigdata .
+docker tag bigdata ahmedghayout/bigdata:1
+docker push ahmedghayout/bigdata:1
+docker network create bigdata_network  
+docker run -d --name bigdata1 --network bigdata_network -p 8881:8888 ahmedghayout/bigdata:1
+docker run -d --name bigdata2 --network bigdata_network -p 8882:8888 ahmedghayout/bigdata:1
+docker run -d --name bigdata3 --network bigdata_network -p 8883:8888 ahmedghayout/bigdata:1
+docker exec -it bigdata1 /bin/bash
+apt update && apt install -y iputils-ping
+ping bigdata2
