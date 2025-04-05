@@ -1,4 +1,3 @@
-﻿# مشروع big-data
 # MongoDB Commands Guide
 
 ## 1. تشغيل MongoDB Server
