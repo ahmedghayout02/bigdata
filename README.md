@@ -48,8 +48,8 @@ CREATE TABLE Inspection (
 ```
 ## استيراد ملفات CSV إلى داخل الحاوية
 ```sh
-docker cp "C:\Users\USERNAME\Downloads\restaurants.csv" mon-cassandra:/restaurants.csv
-docker cp "C:\Users\USERNAME\Downloads\restaurants_inspections.csv" mon-cassandra:/restaurants_inspections.csv
+docker cp "C:\Users\LAPTA\Downloads\restaurants\restaurants.csv" mon-cassandra:/restaurants.csv
+docker cp "C:\Users\LAPTA\Downloads\restaurants\restaurants_inspections.csv" mon-cassandra:/restaurants_inspections.csv
 ```
 ## استيراد البيانات داخل cqlsh
 ```sh
