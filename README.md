@@ -4,6 +4,8 @@
 ```sh
 C:\MongoDB\bin\mongod.exe
 ```
+![image](https://github.com/user-attachments/assets/f8bae73a-0fc3-4db3-9175-89bf7077aab3)
+
 
 ## 2. تشغيل Mongo Shell
 ```sh
