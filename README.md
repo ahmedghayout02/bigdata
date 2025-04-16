@@ -11,6 +11,8 @@ C:\MongoDB\bin\mongod.exe
 ```sh
 C:\MongoDB\bin\mongo.exe
 ```
+![image](https://github.com/user-attachments/assets/8bbea0f0-dcde-467c-8a7b-0d5233a06d4c)
+
 
 ## 3. التبديل إلى قاعدة البيانات "info"
 ```sh
