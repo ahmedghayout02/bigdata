@@ -13,5 +13,5 @@ while True:
     message = f"Temp: {temperature}°C, Humidity: {humidity}%"
     print(f"Sending: {message}")
 
-    producer.send('test', message.encode('utf-8'))
+    producer.send('ahmed', message.encode('utf-8'))
     time.sleep(5)
