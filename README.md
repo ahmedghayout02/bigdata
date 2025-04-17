@@ -1,7 +1,7 @@
-# تحميل Apache Kafka
+# 1- تحميل Apache Kafka
 ## اذهب إلى الموقع الرسمي: https://kafka.apache.org/downloads
 
-# تشغيل Zookeeper و Kafka
+# 2- تشغيل Zookeeper و Kafka
 
 ##  لتشغيل Zookeeper:
 ```bash
@@ -13,13 +13,13 @@ zookeeper-server-start.bat ..\..\config\zookeeper.properties
 cd C:\kafka\kafka_3.x.x\bin\windows
 kafka-server-start.bat ..\..\config\server.properties
 ```
-# إنشاء Topic
+# 3- إنشاء Topic
 ## افتح نافذة جديدة لـ Command Prompt.
 
 ```sh
 kafka-topics.bat --create --topic test --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 ```
-# تشغيل منتج (Producer) ومستهلك (Consumer)
+# 4- تشغيل منتج (Producer) ومستهلك (Consumer)
 ## ✅ Producer 
 ### افتح نافذة جديدة، واكتب:
 ```sh
@@ -32,7 +32,7 @@ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from
 ### الآن، سترى كل الرسائل التي أرسلها المنتج.
 
 
-# 🔧 محاكاة جهاز IoT باستخدام Apache Kafka وPython
+# 5- محاكاة جهاز IoT باستخدام Apache Kafka وPython
 
 ## 📌 وصف المشروع
 
