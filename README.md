@@ -73,7 +73,7 @@ cd G:\kafka_2.13-3.7.2\bin\windows
 ![image](https://github.com/user-attachments/assets/bf7945ae-1950-46f1-85f7-0e40f9967bdc)
 
 
-**خادم Kafka:**
+** Kafka:**
 
 ```bash
 cd G:\kafka_2.13-3.7.2\bin\windows
