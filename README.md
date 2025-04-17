@@ -55,6 +55,8 @@ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from
 ```bash
 pip install kafka-python
 ```
+![image](https://github.com/user-attachments/assets/6cf0a356-2ad8-4eb8-bb9f-806466a0893f)
+
 
 ---
 
@@ -68,6 +70,8 @@ pip install kafka-python
 cd G:\kafka_2.13-3.7.2\bin\windows
 .\zookeeper-server-start.bat ..\..\config\zookeeper.properties
 ```
+![image](https://github.com/user-attachments/assets/bf7945ae-1950-46f1-85f7-0e40f9967bdc)
+
 
 **خادم Kafka:**
 
@@ -75,6 +79,8 @@ cd G:\kafka_2.13-3.7.2\bin\windows
 cd G:\kafka_2.13-3.7.2\bin\windows
 .\kafka-server-start.bat ..\..\config\server.properties
 ```
+![image](https://github.com/user-attachments/assets/f086f507-cf2b-42ea-ae81-cc6f431774f5)
+
 
 ---
 
@@ -82,8 +88,10 @@ cd G:\kafka_2.13-3.7.2\bin\windows
 
 ```bash
 cd G:\kafka_2.13-3.7.2\bin\windows
-.\kafka-topics.bat --create --topic test --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+.\kafka-topics.bat --create --topic ahmed --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 ```
+![image](https://github.com/user-attachments/assets/eaecfafc-7016-446b-beb8-e77bef21fc53)
+
 
 ---
 
@@ -103,13 +111,15 @@ while True:
     message = f"Temp: {temperature}°C, Humidity: {humidity}%"
     print(f"Sending: {message}")
 
-    producer.send('test', message.encode('utf-8'))
+    producer.send('ahmed', message.encode('utf-8'))
     time.sleep(5)
 ```
 
 ```bash
 python iot_sensor.py
 ```
+![image](https://github.com/user-attachments/assets/0a453918-189e-49c1-b292-830764d7867c)
+
 
 ---
 
@@ -118,22 +128,9 @@ python iot_sensor.py
 
 ```bash
 cd G:\kafka_2.13-3.7.2\bin\windows
-.\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning
+.\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic ahmed --from-beginning
 ```
-
----
-
-## ✅ مثال على المخرجات
-
-**نافذة المنتج (Producer):**
-
-
-
-**نافذة المستهلك (Consumer):**
-
-
-
----
+![image](https://github.com/user-attachments/assets/81a8ee51-1a0e-4402-abaa-41cc11658958)
 
 
 
