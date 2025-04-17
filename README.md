@@ -14,14 +14,11 @@ cd C:\kafka\kafka_3.x.x\bin\windows
 kafka-server-start.bat ..\..\config\server.properties
 ```
 # 3- إنشاء Topic
- افتح نافذة جديدة لـ Command Prompt.
-
 ```sh
 kafka-topics.bat --create --topic test --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 ```
 # 4- تشغيل منتج (Producer) ومستهلك (Consumer)
 ## ✅ Producer 
- افتح نافذة جديدة، واكتب:
 ```sh
 kafka-console-producer.bat --broker-list localhost:9092 --topic test
 ```
@@ -29,7 +26,6 @@ kafka-console-producer.bat --broker-list localhost:9092 --topic test
 ```sh
 kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning
 ```
- الآن، سترى كل الرسائل التي أرسلها المنتج.
 
 
 # 5- محاكاة جهاز IoT باستخدام Apache Kafka وPython
@@ -119,7 +115,6 @@ python iot_sensor.py
 
 ### 5. استهلاك الرسائل باستخدام Kafka Consumer
 
-فتح نافذة طرفية جديدة:
 
 ```bash
 cd G:\kafka_2.13-3.7.2\bin\windows
