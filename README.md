@@ -165,8 +165,9 @@ public class WordCount {
 mvn clean compile assembly:single
 ```
 سينتج لك ملف JAR جاهز مع كل التبعيات.
-![Uploading Screenshot 2025-04-23 115727.png…]()
-![Uploading Screenshot 2025-04-23 120122.png…]()
+![Screenshot 2025-04-23 115727](https://github.com/user-attachments/assets/1bd59be8-ddb6-4178-8ea5-8dccf9cdacc7)
+![Screenshot 2025-04-23 120122](https://github.com/user-attachments/assets/5f019d98-8901-48b3-b160-2f8abdd2967b)
+
 
 
 ## سابعاً: تشغيل Job MapReduce في الـ Cluster
