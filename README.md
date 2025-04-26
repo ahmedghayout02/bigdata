@@ -132,6 +132,8 @@ public class WordCount {
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/b165af35-106c-4e57-a703-209b2a5d6280)
+
 ## سادساً: إنشاء ملف JAR
 ### 6.1. إضافة Plugin في pom.xml لتجميع كل التبعيات
 ```sh
