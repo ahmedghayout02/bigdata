@@ -5,16 +5,15 @@
 
 ## أولاً: إعداد بيئة العمل
 ### 1. المتطلبات الأساسية:
-<p dir="rtl">
+Docker
 
- Docker: لتشغيل الـ Hadoop Cluster عبر الحاويات.
+Visual Studio Code
 
- Visual Studio Code: لكتابة وتشغيل مشروع الـ Java.
+Java JDK 8
 
- Java JDK 8: لأن Hadoop 3.x يتطلب Java 8 للعمل.
+Maven
 
- Maven: لإدارة وبناء مشروعك باستخدام pom.xml.
- </p>
+
 
 ## ثانياً: تشغيل Hadoop Cluster باستخدام Docke
 ### 2. إنشاء شبكة Docker خاصة بـ Hadoop
