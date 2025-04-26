@@ -45,7 +45,7 @@ docker exec -it hadoop-master bash
 ./start-hadoop.sh
 ```
 هذا الأمر يقوم بتشغيل كل مكونات HDFS و YARN داخل الحاويات.
-
+![Screenshot 2025-04-26 190754](https://github.com/user-attachments/assets/df47010b-fb69-42bc-9fa4-7fa8be1c8202)
 
 ## رابعاً: رفع بيانات إلى HDFS
 ### 4.1. إنشاء مجلد input داخل HDFS:
@@ -56,6 +56,8 @@ hdfs dfs -mkdir -p /user/root/input
 ```sh
 hdfs dfs -put purchases.txt /user/root/input
 ```
+![437691109-e1a36270-ff00-4654-a51a-5c69bd74d9ab](https://github.com/user-attachments/assets/b5a47e1a-966b-4dba-81a3-bfce070feea1)
+
 ## خامساً: تنفيذ MapReduce - مثال WordCount
 ### 5.1. إنشاء مشروع Maven في VS Code
 ![Screenshot 2025-04-23 005254](https://github.com/user-attachments/assets/a8ce83ea-33b1-4c04-b294-7ef28d9f767b)
