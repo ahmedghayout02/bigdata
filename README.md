@@ -108,12 +108,14 @@ apt update && apt install netcat
 nc -lk 9999
 ```
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/7652317b-ac7f-43bd-b5f6-18c3f069a401)
 
 ### تشغيل Spark Streaming:
 ```sh
 spark-submit --class spark.streaming.tp22.Stream --master local stream-1.jar > out
 ```
+![image](https://github.com/user-attachments/assets/6118bd97-213f-4057-98fd-9329f1fe04e0)
+
 
 
 
