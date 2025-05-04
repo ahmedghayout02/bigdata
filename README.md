@@ -196,6 +196,8 @@ hadoop jar /root/wordcount.jar /user/root/input /user/root/output
 ```sh
 hdfs dfs -cat /user/root/output/part-r-00000
 ```
+![image](https://github.com/user-attachments/assets/5b8b11a6-d661-4d74-a854-093769d712e3)
+
 
 
 
